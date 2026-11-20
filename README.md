@@ -35,3 +35,7 @@ pip install numpy scipy matplotlib mpmath
 cd simulations
 python make_all.py
 ```
+
+## License
+
+The code is released under the MIT License, see [LICENSE](LICENSE).
