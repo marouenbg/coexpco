@@ -8,8 +8,8 @@ Downstream methods that use these networks as input to derive gene regulatory ne
 | Key       | Algorithm                                              |
 |-----------|--------------------------------------------------------|
 | Reference | Direct computing of co-expression (Brute force). |
-| M1        | A rank-1 downdate method. |
-| M2        | A closed-form incremental Pearson method. |
+| M1        | Weldford Update: A rank-1 downdate method. |
+| M2        | Incremental Pearson: A closed-form incremental Pearson method. |
 
 All three operate at float64.
 
@@ -25,8 +25,8 @@ simulations/
   make_all.py                      -- run every experiment in order
 ```
 
-The layout of the benchmark aims at exploring whether
-noise supersedes a fixed biological signal in a simulation study.
+The layout of the benchmark aims at exploring whether deviation induced by each implementation produces
+noise which can dominate a fixed biological signal in a simulation study in a synthetic data set.
 
 ## Reproducing
 
