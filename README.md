@@ -36,6 +36,11 @@ cd simulations
 python make_all.py
 ```
 
+## Data
+
+The code and the minimal data set of the manuscript, including the application to semaglutide transcriptomes, are archived on Zenodo, https://doi.org/10.5281/zenodo.23352607.
+The application uses public data from the Gene Expression Omnibus (series GSE330098 and GSE166647).
+
 ## License
 
 The code is released under the MIT License, see [LICENSE](LICENSE).
